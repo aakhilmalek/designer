@@ -1342,6 +1342,31 @@ background-image: linear-gradient( 108.4deg,  rgba(10,255,194,0.5) 11.2%, rgba(0
 .progress-bar.two {background: #36a6ce;}
 .progress-bar.three {background: #fcb65f;}
 
+h2 {font-weight: 300 !important;}
+
+
+.single-service {
+    padding: 40px 20px 30px 20px;
+    background-color: #ffffff;
+    border: 1px solid rgba(228, 228, 228, 0.5);
+    box-shadow: 0 4px 10px 2px rgba(18, 18, 18, 0.01);
+    border-radius: 8px;
+    text-align: center;
+}
+.single-blog{
+    padding: 40px 20px 30px 20px;
+    background-color: #ffffff;
+    border: 1px solid rgba(228, 228, 228, 0.5);
+    box-shadow: 0 4px 10px 2px rgba(18, 18, 18, 0.01);
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px;
+}
+.single-blog img {
+    min-height: 212px;
+    max-height: 212px;
+    overflow: hidden;   
+}
 
 
 @media (max-width: 767px) {
