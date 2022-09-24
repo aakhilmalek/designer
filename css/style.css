@@ -495,7 +495,9 @@ ul.navbar-nav {
     background: #fafafa;
 }
 
-.single-service {}
+.single-service {
+    margin-bottom: 30px;
+}
 
 .single-service i {
     font-size: 40px;
@@ -518,6 +520,7 @@ ul.navbar-nav {
 
 .single-service p {
     color: #232323;
+    min-height: 175px;
 }
 
 
@@ -1583,4 +1586,10 @@ h2 {font-weight: 300 !important;}
     -o-animation-duration: 3s; 
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
+}
+
+
+.grid figure figcaption > a {
+    color: #fff;
+    font-weight: 500;
 }
